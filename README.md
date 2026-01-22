@@ -39,8 +39,39 @@ embudo de eventos, validando primero la equivalencia de los grupos de control
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
-## 📈 Resultado
-El análisis permite determinar si el cambio en las fuentes tipográficas produce
-una diferencia estadísticamente significativa en el comportamiento de los
-usuarios, apoyando la toma de decisiones basada en datos.
+## 📈 Resultados
+
+El objetivo principal del experimento fue evaluar si la modificación en las
+fuentes tipográficas de la aplicación generaba un impacto significativo en el
+comportamiento de los usuarios. Para ello, se implementó un experimento A/A/B
+con dos grupos de control (246 y 247) y un grupo de prueba (248) expuesto al
+nuevo diseño.
+
+Los resultados del análisis permiten extraer las siguientes conclusiones:
+
+- **Validez del experimento:**  
+  La comparación entre los dos grupos de control no mostró diferencias
+  estadísticamente significativas en ninguno de los eventos analizados,
+  confirmando que la aleatorización fue exitosa y que el experimento está
+  correctamente implementado.
+
+- **Impacto del rediseño:**  
+  Al comparar el grupo con la nueva tipografía (248) frente a los grupos de
+  control, no se identificaron diferencias estadísticamente significativas en
+  los eventos clave del embudo de conversión (pantalla principal, ofertas,
+  carrito, pago y tutorial).
+
+- **Robustez estadística:**  
+  Se realizaron 15 pruebas de hipótesis y, tras aplicar la corrección de
+  Bonferroni para controlar el riesgo de falsos positivos, todas las
+  conclusiones se mantuvieron consistentes. El valor p más bajo observado
+  permaneció por encima del umbral ajustado (0.0033), lo que indica ausencia
+  de un efecto atribuible al rediseño.
+
+En conclusión, dado que el cambio tipográfico no genera un impacto negativo en
+el comportamiento de los usuarios, se recomienda su implementación completa.
+Además, el experimento valida la solidez del sistema de experimentación del
+producto y establece una base confiable para futuras pruebas A/B de mayor
+complejidad.
+
 
