@@ -22,6 +22,7 @@ embudo de eventos, validando primero la equivalencia de los grupos de control
 - `notebooks/` → Análisis A/A/B en Jupyter Notebook
 - `README.md` → Descripción del proyecto en español
 - `README_EN.md` → Descripción del proyecto en inglés
+- `requirements.txt` → Dependencias del proyecto
 
 ## 🔬 Metodología
 - Limpieza y procesamiento de datos
