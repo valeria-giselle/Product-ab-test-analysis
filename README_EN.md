@@ -21,6 +21,7 @@ the typography change (A/B).
 - `notebooks/` → A/A/B analysis notebook
 - `README.md` → Project description in Spanish
 - `README_EN.md` → Project description in English
+- `requirements.txt` → Project dependencies
 
 ## 🔬 Methodology
 - Data cleaning and preprocessing
