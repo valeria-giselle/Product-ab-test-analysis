@@ -40,7 +40,7 @@ embudo de eventos, validando primero la equivalencia de los grupos de control
 - Jupyter Notebook
 
 ## 📊 Visualizaciones clave
-![Distribución de eventos](images/funnel_plot.png)
+![Distribución de eventos](images/funnel_events.png)
 
 ## 📈 Resultados
 
