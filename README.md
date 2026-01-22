@@ -39,6 +39,9 @@ embudo de eventos, validando primero la equivalencia de los grupos de control
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
+## 📊 Visualizaciones clave
+![Distribución de eventos](images/funnel_plot.png)
+
 ## 📈 Resultados
 
 El objetivo principal del experimento fue evaluar si la modificación en las
