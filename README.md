@@ -1,3 +1,6 @@
+🌐 **Lenguaje:**  
+[English version](README_EN.md)
+
 # 📊 Análisis de Producto Prueba A/B
 
 ## 📌 Descripción
